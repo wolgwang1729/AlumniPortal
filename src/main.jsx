@@ -1,17 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { RouterProvider, Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import './index.css'
-import Layout from './Layout.jsx'
-import Home from './components/Home.jsx'
-import Login from './components/Login.jsx'
-import Register from './components/Register.jsx'
-import Events from './components/Events.jsx'
-import AlumniConnect from './components/AlumniConnect.jsx'
-import Incubation from './components/Incubation.jsx'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { RouterProvider, Route, createHashRouter, createRoutesFromElements } from 'react-router-dom';
+import './index.css';
+import Layout from './Layout.jsx';
+import Home from './components/Home.jsx';
+import Login from './components/Login.jsx';
+import Register from './components/Register.jsx';
+import Events from './components/Events.jsx';
+import AlumniConnect from './components/AlumniConnect.jsx';
+import Incubation from './components/Incubation.jsx';
 
-
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
@@ -22,10 +21,10 @@ const router = createBrowserRouter(
       <Route path='incubation' element={<Incubation />} />
     </Route>
   )
-)
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>,
-)
+);
