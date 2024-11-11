@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Event1Image1 from "../assets/Event1/Image1.jpeg";
+import Event1Image2 from "../assets/Event1/Image2.jpeg";
+import Event1Image3 from "../assets/Event1/Image3.jpeg";
+import Event2Image1 from "../assets/Event2/Image1.jpeg";
+import Event2Image2 from "../assets/Event2/Image2.jpeg";
+import Event2Image3 from "../assets/Event2/Image3.jpeg";
 
 export default function Events() {
     return (
@@ -39,13 +45,13 @@ export default function Events() {
                         </div>
                         <div className="flex flex-wrap px-12 py-7 justify-center items-center gap-3">
                             <div className="h-54 w-96 overflow-hidden rounded-lg shadow-lg">
-                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src="src/assets/Event1/Image1.jpeg" alt="Event Image 1" />
+                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src={Event1Image1} alt="Event Image 1" />
                             </div>
                             <div className="h-54 w-96 overflow-hidden rounded-lg shadow-lg">
-                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src="src/assets/Event1/Image2.jpeg" alt="Event Image 2" />
+                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src={Event1Image2} alt="Event Image 2" />
                             </div>
                             <div className="h-54 w-96 overflow-hidden rounded-lg shadow-lg">
-                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src="src/assets/Event1/Image3.jpeg" alt="Event Image 3" />
+                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src={Event1Image3} alt="Event Image 3" />
                             </div>
                         </div>
                     </div>
@@ -61,13 +67,13 @@ export default function Events() {
                         </div>
                         <div className="flex flex-wrap px-12 py-7 justify-center items-center gap-3">
                             <div className="h-54 w-96 overflow-hidden rounded-lg shadow-lg">
-                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src="src/assets/Event2/Image1.jpeg" alt="Event Image 1" />
+                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src={Event2Image1} alt="Event Image 1" />
                             </div>
                             <div className="h-54 w-96 overflow-hidden rounded-lg shadow-lg">
-                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src="src/assets/Event2/Image2.jpeg" alt="Event Image 2" />
+                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src={Event2Image2} alt="Event Image 2" />
                             </div>
                             <div className="h-54 w-96 overflow-hidden rounded-lg shadow-lg">
-                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src="src/assets/Event2/Image3.jpeg" alt="Event Image 3" />
+                                <img className="h-full w-full object-cover transform transition duration-500 hover:scale-105" src={Event2Image3} alt="Event Image 3" />
                             </div>
                         </div>
                     </div>

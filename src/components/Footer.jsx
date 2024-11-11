@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import FooterImage from "../assets/Footer.jpg";
 
 export default function Footer() {
     return (
@@ -8,8 +9,8 @@ export default function Footer() {
                 <div className="relative">
                     <img
                         className="w-full h-48"
-                        src="src/assets/Footer.jpg"
-                        alt="DTU Entrance"
+                        src={FooterImage}
+                        alt="DTU Ground"
                     />
                     <div className="absolute bg-black bg-opacity-65 inset-0 flex items-end justify-start text-white px-6">
                         <div className="flex items-center">
