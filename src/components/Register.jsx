@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LoginImage from "../assets/Login.jpeg";
 
 export default function Register() {
     return (
@@ -7,7 +8,7 @@ export default function Register() {
             <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
                 <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
                     <div className="flex ">
-                        <img src="src\assets\Login.jpeg"  alt="" />
+                        <img src={LoginImage}   alt="" />
                     </div>
                     <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
                         <div className="flex items-center justify-center">
