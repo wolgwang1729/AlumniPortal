@@ -7,7 +7,7 @@ export default function Home() {
             <div className="relative mx-auto max-w-full">
                 <img
                     className="w-full h-auto"
-                    src="src/assets/Entrance.jpg"
+                    src="/assets/Entrance.jpg"
                     alt="DTU Entrance"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-between text-white bg-black bg-opacity-50 pt-5 pb-56">
