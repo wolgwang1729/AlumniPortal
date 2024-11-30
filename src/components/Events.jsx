@@ -12,19 +12,19 @@ export default function Events() {
         <>
             <div className="inset-0 flex flex-col items-center justify-center text-white bg-black py-5 opacity-80 rounded-lg mx-16 mt-4">
                 <h1 className="font-serif text-3xl font-bold mb-4">Events</h1>
-                <p className="font-serif text-xl text-center max-w-5xl">
+                <p className="font-serif sm:text-xl text-center max-w-5xl">
                     Stay updated with the latest events and activities happening at DTU. Join us and be a part of our vibrant community.
                 </p>
                 <div className="flex items-center lg:order-2 mt-5 gap-6">
                     <Link
                         to="/login"
-                        className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                        className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm md:text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                     >
                         Attend an Event
                     </Link>
                     <Link
                         to="/login"
-                        className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                        className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm md:text-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                     >
                         Organise an Event
                     </Link>

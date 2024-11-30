@@ -78,10 +78,10 @@ const alumniData = [
 
 export default function AlumniConnect() {
     return (
-        <div className="min-h-screen bg-gray-100 text-gray-900 mb-6">
+        <div className="min-h-screen text-gray-900 mb-6">
             <div className="inset-0 flex flex-col items-center justify-center text-white bg-black py-5 opacity-80 rounded-lg mb-8 mx-16 mt-4">
-                <h1 className="font-serif text-3xl font-bold mb-4">Alumni Connect</h1>
-                <p className="font-serif text-xl text-center max-w-5xl">
+                <h1 className="font-serif text-xl sm:text-3xl font-bold mb-4">Alumni Connect</h1>
+                <p className="font-serif sm:text-xl text-center max-w-5xl">
                 Connect with our esteemed alumni from various batches and industries.
                 </p>
             </div>
@@ -134,6 +134,7 @@ export default function AlumniConnect() {
                     ))}
                 </div>
             </div>
+            
         </div>
     );
 }

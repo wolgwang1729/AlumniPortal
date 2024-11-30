@@ -8,16 +8,16 @@ export default function Footer() {
             <footer className="">
                 <div className="relative">
                     <img
-                        className="w-full h-48"
+                        className="w-full md:h-48"
                         src={FooterImage}
                         alt="DTU Ground"
                     />
                     <div className="absolute bg-black bg-opacity-65 inset-0 flex items-end justify-start text-white px-6">
                         <div className="flex items-center">
-                            <div className="text-5xl" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
+                            <div className="text-xl md:text-5xl" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
                                 DCE DTU |
                             </div>
-                            <div className="text-7xl" style={{ fontFamily: "'Corinthia', serif" }}>
+                            <div className="text-3xl md:text-7xl" style={{ fontFamily: "'Corinthia', serif" }}>
                                 alumni
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default function Footer() {
                             </div>
 
                         </div>
-                        <div className="grid grid-cols-2 gap-8">
+                        <div className="hidden md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold text-gray-202 uppercase">Resources</h2>
                                 <ul className="text-gray-400 font-medium">
@@ -119,14 +119,14 @@ export default function Footer() {
                         </div>
                     </div>
                     <hr className="my-6 mb-3 border-gray-200 sm:mx-auto " />
-                    <div className="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm text-gray-500 sm:text-center">
+                    <div className="flex items-center justify-between">
+                        <div className="text-sm text-gray-500">
                             ©
                             <a href="https://github.com/wolgwang1729" className="hover:underline">
                                 wolgwang
                             </a>
                             . All Rights Reserved.
-                        </span>
+                        </div>
                         <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                             <Link to="#" className="text-gray-500 hover:text-gray-900">
                                 <svg

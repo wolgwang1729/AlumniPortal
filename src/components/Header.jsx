@@ -10,15 +10,15 @@ export default function Header() {
                         <Link to="/" className="flex items-center">
                             <img
                                 src="https://upload.wikimedia.org/wikipedia/en/b/b5/DTU%2C_Delhi_official_logo.png"
-                                className="mr-3 h-12"
+                                className="mr-3 h-8 lg:h-12"
                                 alt="Logo"
                             />
                         </Link>
                         <Link to="/" className="flex items-center">
-                        <div className="text-3xl" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
+                        <div className="text-lg md:text-3xl" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
                             DCE DTU |
                         </div>
-                        <div className="text-5xl" style={{ fontFamily: "'Corinthia', serif" }}>
+                        <div className="text-3xl md:text-5xl" style={{ fontFamily: "'Corinthia', serif" }}>
                             alumni
                         </div>
                         </Link>
@@ -85,6 +85,52 @@ export default function Header() {
                         </ul>
                     </div>
                 </div>
+                <div
+                        className="w-full lg:hidden "
+                    >
+                        <ul className="flex items-center justify-center text-md font-medium">
+                            <li>
+                                <NavLink
+                                    to='/'
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Home
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to='/events'
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Events
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to='/alumni-connect'
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Alumni Connect
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to='/incubation'
+                                    className={({ isActive }) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-orange-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Incubation
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </div>
             </nav>
         </header>
     );
