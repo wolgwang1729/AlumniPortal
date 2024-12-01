@@ -30,7 +30,7 @@ export default function Home() {
             <div className="text-2xl md:text-5xl" style={{ fontFamily: "'Times New Roman', Times, serif" }}>DTU Looks Forward</div>
             <div className="text-xl md:text-2xl">
               Explore how the University is advancing knowledge in service to
-              society, strengthening the Harvard community, and fostering open
+              society, strengthening the DTU community, and fostering open
               dialogue.
             </div>
             <div className="bg-black rounded-xl m-4">
