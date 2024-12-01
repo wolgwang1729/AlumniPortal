@@ -191,7 +191,7 @@ export default function Incubation() {
 
   return (
     <>
-      <div className="inset-0 flex flex-col items-center justify-center text-white bg-black py-5 opacity-80 rounded-lg mb-8 mx-16 mt-4">
+      <div className="inset-0 flex flex-col items-center justify-center text-white bg-black py-5 opacity-80 rounded-lg mb-8 mx-2 md:mx-16 mt-4">
         <h1 className="font-serif md:text-3xl font-bold mb-4">
           Startup Pitches
         </h1>

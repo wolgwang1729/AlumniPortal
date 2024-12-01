@@ -6,7 +6,7 @@ export default function Login() {
     return (
         <>
             <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
-                <div className="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
+                <div className="max-w-screen-xl m-4 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
                     <div className="hidden lg:w-auto lg:flex lg:rounded-lg">
                         <img src={LoginImage}  className="rounded-lg" alt="" />
                     </div>

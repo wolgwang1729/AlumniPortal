@@ -10,7 +10,7 @@ import Event2Image3 from "../assets/Event2/Image3.jpeg";
 export default function Events() {
     return (
         <>
-            <div className="inset-0 flex flex-col items-center justify-center text-white bg-black py-5 opacity-80 rounded-lg mx-16 mt-4">
+            <div className="inset-0 flex flex-col items-center justify-center text-white bg-black py-5 opacity-80 rounded-lg mx-4 md:mx-16 mt-4">
                 <h1 className="font-serif text-3xl font-bold mb-4">Events</h1>
                 <p className="font-serif sm:text-xl text-center max-w-5xl">
                     Stay updated with the latest events and activities happening at DTU. Join us and be a part of our vibrant community.

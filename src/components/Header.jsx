@@ -88,7 +88,7 @@ export default function Header() {
                 <div
                         className="w-full lg:hidden "
                     >
-                        <ul className="flex items-center justify-center text-md font-medium">
+                        <ul className="flex items-center justify-center text-sm font-medium">
                             <li>
                                 <NavLink
                                     to='/'
