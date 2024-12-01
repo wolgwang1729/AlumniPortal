@@ -12,6 +12,9 @@ This project, developed as part of the Software Engineering course (CS209), is a
 
 ## Features
 
+### Responsive Design
+- **Fully Responsive**: The site is fully responsive and optimized for various devices, ensuring a seamless user experience on desktops, tablets, and mobile phones.
+
 ### Alumni Profiles
 - **Detailed Profiles**: Alumni can create and update their profiles with information such as name, batch, discipline, notability, and social media links.
 - **Search and Filter**: Users can search for alumni based on various criteria like batch, discipline, and notability.
@@ -37,6 +40,29 @@ This project, developed as part of the Software Engineering course (CS209), is a
 - **Frontend**: React.js, Tailwind CSS
 - **Build Tools**: Vite
 - **Other Libraries**: FontAwesome for icons, React Router for navigation
+
+## Image Gallery
+
+Here are some images related to the project:
+
+![Image 1][1]
+
+![Image 2][2]
+
+![Image 3][3]
+
+![Image 4][4]
+
+![Image 5][5]
+
+![Image 6][6]
+
+  [1]: https://i.sstatic.net/IYg5HHtW.png
+  [2]: https://i.sstatic.net/jytNsGvF.png
+  [3]: https://i.sstatic.net/yrE6pmF0.png
+  [4]: https://i.sstatic.net/cWWVBabg.png
+  [5]: https://i.sstatic.net/f81vGS6t.png
+  [6]: https://i.sstatic.net/cwv9PvDg.png
 
 ## Setup Instructions
 
