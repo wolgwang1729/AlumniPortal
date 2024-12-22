@@ -12,11 +12,11 @@ export default function Home() {
             src={EntranceImage}
             alt="DTU Entrance"
           />
-          <div className="absolute inset-0 flex flex-col items-center justify-between  bg-black bg-opacity-50 text-white pt-5 ">
-            <h1 className="font-serif text-2xl sm:text-5xl md:text-6xl md:mb-4 xl:text-9xl font-bold">
+          <div className="absolute inset-0 flex flex-col items-center justify-between  bg-black bg-opacity-50 text-white pt-1 sm:pt-5 ">
+            <h1 className="font-serif text-xl sm:text-5xl md:text-6xl md:mb-4 xl:text-9xl font-bold">
               Welcome Home
             </h1>
-            <p className="font-serif text-sm sm:text-2xl md:text-3xl  text-center max-w-screen-lg mb-56">
+            <p className="font-serif text-xs sm:text-2xl md:text-3xl text-center w-full sm:max-w-screen-lg mb-56">
               Step into the virtual home of DTU’s vibrant community and DCE
               legacy — a place where innovation and excellence extend beyond the
               campus. Reconnect with classmates, explore opportunities, and stay
