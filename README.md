@@ -1,4 +1,4 @@
-# Alumni Portal
+# [Alumni Portal](https://wolgwang1729.github.io/AlumniPortal/)
 
 This project, developed as part of the Software Engineering course (CS209), is an Alumni Portal for Delhi Technological University (DTU). The portal aims to connect alumni with current students, faculty, and each other, fostering a strong community and network. The platform provides various features such as event management, alumni profiles, startup incubation details, and more.
 
@@ -86,6 +86,9 @@ Here are some images related to the project:
     ```bash
     npm run dev
     ```
+
+### Deployment
+The website is deployed at [https://wolgwang1729.github.io/AlumniPortal/](https://wolgwang1729.github.io/AlumniPortal/)
 
 ## Usage
 
