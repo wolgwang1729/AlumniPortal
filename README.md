@@ -87,16 +87,6 @@ Here are some images related to the project:
     npm run dev
     ```
 
-4. **Build for production**:
-    ```bash
-    npm run build
-    ```
-
-5. **Preview the production build**:
-    ```bash
-    npm run preview
-    ```
-
 ## Usage
 
 ### Running the Application
